@@ -13,8 +13,9 @@
   clear: both;
 }
 
-@mixin gradient-to-solid($color: $red) {
-  background: linear-gradient(color, transparent);
+@mixin gradient-to-solid-hover($color: $red)
+{
+  background: linear-gradient($color, transparent);
   &:hover {
     background:$color;
   }
