@@ -1,5 +1,5 @@
 .article-block {
-  width: 32%;
+  width:100%;
   height: 20em;
   background: linear-gradient (red, transparent);
   padding: 1em;
@@ -24,6 +24,15 @@
   img {
     z-index:-10;
     max-width: none;
-
   }
+  &.block-small {
+    width:25%;
+  }
+  &.block-medium {
+    width: 32%;
+  }
+  &.block-large {
+    width:45%;
+  }
+
 }
