@@ -10,8 +10,9 @@ body {
     background: $white;
     font-family: $font-stack;
     color: $black;
-    max-width: 960 / 16 * 1em;
+    max-width: 1200 / 16 * 1em;
     margin: 4em;
+    padding: 0 2em;
 }
 
 .browsehappy {

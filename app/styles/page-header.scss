@@ -1,0 +1,41 @@
+.page-header {
+  position: relative;
+  @include clearfix;
+  width: 100%;
+  margin-bottom: 3em;
+
+  .utility-logo-group {
+    position: absolute;
+    top:0;
+    right:0;
+    width: 30em;
+    display:block;
+  }
+  .header-utilities {
+    float:left;
+    list-style-type: none;
+    margin:0;
+    padding: 0.25em;
+    font-weight:500;
+    font-size:small;
+  }
+  li.brochure{
+    background-image: url("../images/sdo_broch.png") no-repeat right center;
+    width: 8em;
+  }
+.logo-mcad {
+  float:right;
+}
+.main-nav {
+  float: right;
+}
+a {
+  text-decoration: none;
+  color:$black
+}
+a:hover {
+  color: $black;
+  opacity: 1;
+
+}
+}
